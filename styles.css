@@ -1,10 +1,10 @@
-colors
+/* colors
 #f0dad7 light pink/light mauve
-#f0e5e4 light beige/cream 
+#f0e5e4 light beige/cream  */
 
 @font-face {
     font-family: 'margo_scriptregular';
-    src: url('margoscript-regular-webfont.woff2') format('woff2'),
+    src: url('fonts/margoscript-regular-webfont.woff2') format('woff2'),
          url('margoscript-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -12,7 +12,7 @@ colors
 
 @font-face {
     font-family: 'margo_serifregular';
-    src: url('margoserif-regular-webfont.woff2') format('woff2'),
+    src: url('fonts/margoserif-regular-webfont.woff2') format('woff2'),
          url('margoserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -25,6 +25,46 @@ body {
     color: #2c0203;
     font-family: 'Montserrat', sans-serif;
     background-color: #f0e5e4;
+}
+
+header {
+    height: 700px;
+    background-image: url(images/horiz-profile-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
     margin: 0 12%;
 }
 
+h1, h2, h3 {
+    font-family:'margo_serifregular', serif;
+}
+
+nav {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav h1 {
+    /* grid-column: 2; */
+    font-size: 40px;
+}
+
+nav button{
+    /* grid-column: 3; */
+    height: 40px;
+    margin-top: 35px;
+    width: 200px;
+    background: #821e03;
+    border-radius: 0%;
+    border: none;
+    color: #f0e5e4;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
