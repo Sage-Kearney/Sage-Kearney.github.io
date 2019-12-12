@@ -1,3 +1,7 @@
+colors
+#f0dad7 light pink/light mauve
+#f0e5e4 light beige/cream 
+
 @font-face {
     font-family: 'margo_scriptregular';
     src: url('margoscript-regular-webfont.woff2') format('woff2'),
@@ -13,3 +17,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    text-align: center;
+    color: #2c0203;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0e5e4;
+    margin: 0 12%;
+}
+
