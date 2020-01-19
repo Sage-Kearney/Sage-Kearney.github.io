@@ -44,6 +44,7 @@ header img{
     width: 25vh;
     display: block;
     margin: 0 auto;
+    padding: 0px;
 }
 
 h2 {
@@ -71,6 +72,7 @@ h2 {
     width: 275px;
     background-image: url('/images/vert-profile-pic.jpg');
     background-size: contain;
+    background-repeat: no-repeat;
     margin: 0 auto;
 }
 
@@ -79,7 +81,7 @@ h2 {
     left: 0px;
     right: 0px;
     top: 150px;
-    height: 790px; 
+    height: 870px; 
     z-index: -1;
     background:rgba(247, 233, 222, .7) ;
 } 
