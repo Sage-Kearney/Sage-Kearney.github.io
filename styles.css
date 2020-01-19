@@ -47,23 +47,23 @@ header img{
 }
 
 h2 {
-    font-family: "montserrat", sans-serif;
-    /* font-family: "margo_serifregular", serif; */
-    /* font-size: 20px; */
+    font-family: "margo_serifregular", serif; 
+    font-size: 20px;
     font-weight: 700px;
     margin: 40px auto;
-    line-height: 45px;
     width: 60vw;
 }
 
 .brand-statement {
+    font-family: "montserrat", sans-serif;
     color:#c84630;
+    font-size: 20px;
+    line-height: 30px;
 }
 
 .hello-container{
     position: relative;
     padding: 40px 0;
-    /* border: solid black; */
 }
 
 .headshot-pic {
@@ -79,23 +79,25 @@ h2 {
     left: 0px;
     right: 0px;
     top: 150px;
-    height: 750px; 
+    height: 790px; 
     z-index: -1;
     background:rgba(247, 233, 222, .7) ;
 } 
 
 
 .hello-container h3 {
-    font-family:'margo_scriptregular', serif;
-    font-size: 50px;
+    font-family: 'margo_serifregular', serif;
+    font-size: 30px;
     color: #c84630;
-    position: absolute; 
-    top: 360px; 
-    left:10%; 
+    margin: 10px auto;
+    width: 275px;
+    /* position: absolute; 
+    top: 368px; 
+    left:10%;  */
 }
 
 .hello-container p{
-    margin: 20px auto;
+    margin: 0px auto 20px auto;
     width: 275px;
 
 }
@@ -200,6 +202,11 @@ footer a {
     
 }
 
+footer a:hover {
+    text-decoration: none;
+    color: #96a096;
+    font-size: 16px;
+}
 
 hr {
     border-color: rgba(239, 241, 243, .5);
@@ -228,8 +235,9 @@ footer h4 {
 }
 
 .fa:hover {
-    color: #96a096;
+    font-size: 35px;
 }
+
 
 
 
