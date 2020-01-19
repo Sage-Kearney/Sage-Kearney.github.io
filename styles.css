@@ -1,6 +1,9 @@
 /* colors
-#f0dad7 light pink/light mauve
-#f0e5e4 light beige/cream  */
+#c84630 red
+#f7e9de light beige
+#eff1f3 off white
+#96a096 sage green
+#1a4746 dark blue green  */
 
 @font-face {
     font-family: 'margo_scriptregular';
@@ -20,6 +23,229 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
+
+/* styling for mobile aka max width 370px  */
+
+body {
+    color:#1a4746;
+    background:#eff1f3;
+}
+nav {
+    display: none;
+}
+
+header {
+    background:#1a4746;
+    height: 50vh;
+    padding: 12rem 0;
+}
+
+header img{
+    width: 25vh;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "margo_serifregular", serif;
+    font-size: 20px;
+    margin: 40px auto;
+    width: 60vw;
+}
+
+.brand-statement {
+    color:#c84630;
+}
+
+.hello-container{
+    position: relative;
+    padding: 40px 0;
+    /* border: solid black; */
+}
+
+.headshot-pic {
+    height: 350px;
+    width: 275px;
+    background-image: url('/images/vert-profile-pic.jpg');
+    background-size: contain;
+    margin: 0 auto;
+}
+
+ .hello-offset-background {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 150px;
+    height: 750px; 
+    z-index: -1;
+    background:rgba(247, 233, 222, .5) ;
+} 
+
+
+.hello-container h3 {
+    font-family:'margo_scriptregular', serif;
+    font-size: 50px;
+    color: #c84630;
+    position: absolute; 
+    top: 360px; 
+    left:10%; 
+}
+
+.hello-container p{
+    margin: 20px auto;
+    width: 275px;
+
+}
+
+.recent-work-container {
+    margin: 40px auto;
+}
+
+.recent-work-container h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+.recent-work-container img {
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.recent-work-container h3 {
+    font-family:'margo_scriptregular', serif;
+    font-size: 50px;
+    color: #1a4746;
+    text-align: center;
+    position: absolute;
+    top: 370px;
+    left: 29%;
+    
+}
+
+.project-trans-overlay {
+    background-color:rgba(239, 241, 243, .6);
+    height: 400px;
+    width: 303px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 9.3%;
+}
+
+.project-trans-overlay:hover {
+    background-color:rgba(239, 241, 243, 0);
+}
+
+.recent-work-container p {
+    margin: 35px auto;
+    width: 300px;
+}
+
+.project-one-container {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.project-two-container{
+    position: relative;
+}
+
+footer {
+    background:#1a4746;
+}
+
+footer img {
+    display: block;
+    margin: 0 auto;
+    height: 200px;
+    padding: 30px 0px 10px 0px;
+    opacity: .5;
+}
+
+footer a {
+    color: #eff1f3;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+
+hr {
+    border-color: rgba(239, 241, 243, .5);
+    width: 20%;
+}
+
+footer h4 {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    color:#eff1f3;
+    
+}
+
+.fa-container {
+    text-align: center;
+}
+
+.fa {
+    display: inline-block; 
+    font-size: 30px;
+    padding: 15px 5px;
+}
+
+.fa:hover {
+    color: #96a096;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 body {
     text-align: center;
     color: #2c0203;
@@ -32,9 +258,9 @@ header {
     background-image: url(images/horiz-profile-pic.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
-main {
+/* main {
     margin: 0 12%;
 }
 
@@ -43,20 +269,22 @@ h1, h2, h3 {
 }
 
 nav {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
+    --display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #f0e5e4;
 }
 
 nav h1 {
-    /* grid-column: 2; */
+    --grid-column: 2;
     font-size: 40px;
+    color: #f0e5e4;
 }
 
 nav button{
-    /* grid-column: 3; */
+    --grid-column: 3;
     height: 40px;
     margin-top: 35px;
     width: 200px;
@@ -68,3 +296,31 @@ nav button{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+header{
+    color: #f0e5e4;
+} 
+
+header h2 {
+    padding-top: 200px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+header p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header button {
+    height: 40px;
+    margin-top: 35px;
+    width: 200px;
+    background: #821e03;
+    color: #f0e5e4;
+    border-radius: 0%;
+    border: none;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+} */
