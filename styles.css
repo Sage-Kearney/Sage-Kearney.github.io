@@ -241,13 +241,122 @@ footer h4 {
 }
 
 
+@media screen and (min-width:490px) and (max-width:695px){
+
+    header img {
+
+    }
+
+    .hello-container p {
+        width:375px;
+    }
+
+    .hello-offset-background {
+        height: 750px;
+    }
+
+    .recent-work-container h3 {
+        left: 35%;
+    }
+
+}
+
+@media screen and (min-width:695px) and (max-width:970px){
+    header {
+        padding: 5rem 0 12rem 0;
+    }
+
+    header img {
+        width: 55vh;
+    }
+
+    .brand-statement {
+        margin: 100px auto;
+    }
+
+    .hello-offset-background {
+        height: 440px;
+    }
+
+    .headshot-pic {
+        margin-left: 13%;
+    }
+
+    .hello-content {
+        padding-left: 0px;
+        margin-right: 27%;
+        width: 100px;
+        top: 60px;
+    }
+
+    .hello-container h3 {
+        margin: 0px;
+    }
+    
+    .hello-content p {
+        width: 375px;
+    }
+    
+
+    .recent-work-container {
+        margin: 150px auto;
+    }
+}
+
+
+@media screen and (min-width: 970px) and (max-width:1200px) {
+    header {
+        padding: 5rem 0 12rem 0;
+    }
+
+     header img {
+        width: 55vh;
+    }
+
+    .brand-statement {
+        margin: 100px auto;
+        max-width: 700px;
+    }
+
+    .hello-offset-background {
+        height: 440px;
+    }
+
+    .headshot-pic {
+        margin-left: 20%;
+        height: 500px;
+    }
+
+    .hello-content {
+        padding-left: 0px;
+        margin-right: 21%;
+        width: 100px;
+        top: 60px;
+    }
+
+    .hello-container h3 {
+        margin: 0px;
+    }
+    
+    .hello-content p {
+        width: 375px;
+    }
+    
+    .recent-work-container {
+        margin: 150px auto;
+    }
+
+    .recent-work-container .row {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
 
 
 
-
-
-
-
+@media screen and (min-width: 1200px) {
+    
+}
 
 
 
