@@ -67,13 +67,27 @@ h2 {
     padding: 40px 0;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin: 0 2.5em;
+}
+
+.hello-content {
+    /* border: 1px solid orange; */
+    flex-basis: 40%;
+}
+
 .headshot-pic {
-    height: 350px;
-    width: 275px;
     background-image: url('/images/vert-profile-pic.jpg');
-    background-size: contain;
+    flex-basis: 26em;
+    background-size: cover;
+    background-position: 0px -60px;
     background-repeat: no-repeat;
-    margin: 0 auto;
+    /* border: 1px solid purple; */
+    margin-bottom: 1em;
+    /* margin: 0 auto; */
 }
 
  .hello-offset-background {
@@ -81,7 +95,7 @@ h2 {
     left: 0px;
     right: 0px;
     top: 150px;
-    height: 870px; 
+    height: 820px; 
     z-index: -1;
     background:rgba(247, 233, 222, .7) ;
 } 
@@ -91,7 +105,7 @@ h2 {
     font-family: 'margo_serifregular', serif;
     font-size: 30px;
     color: #c84630;
-    margin: 10px auto;
+    /* margin: 10px auto; */
     width: 275px;
     /* position: absolute; 
     top: 368px; 
@@ -100,7 +114,7 @@ h2 {
 
 .hello-container p{
     margin: 0px auto 20px auto;
-    width: 275px;
+    /* width: 275px; */
 
 }
 .signature {
@@ -247,9 +261,9 @@ footer h4 {
 
     }
 
-    .hello-container p {
+    /* .hello-container p {
         width:375px;
-    }
+    } */
 
     .hello-offset-background {
         height: 750px;
@@ -278,24 +292,24 @@ footer h4 {
         height: 440px;
     }
 
-    .headshot-pic {
+    /* .headshot-pic {
         margin-left: 13%;
-    }
+    } */
 
-    .hello-content {
+    /* .hello-content {
         padding-left: 0px;
         margin-right: 27%;
         width: 100px;
         top: 60px;
-    }
+    } */
 
-    .hello-container h3 {
+    /* .hello-container h3 {
         margin: 0px;
-    }
+    } */
     
-    .hello-content p {
+    /* .hello-content p {
         width: 375px;
-    }
+    } */
     
 
     .recent-work-container {
@@ -322,25 +336,25 @@ footer h4 {
         height: 440px;
     }
 
-    .headshot-pic {
+    /* .headshot-pic {
         margin-left: 20%;
         height: 500px;
-    }
-
+    } */
+/* 
     .hello-content {
         padding-left: 0px;
         margin-right: 21%;
         width: 100px;
-        top: 60px;
-    }
+        top: 60px; */
+    /* } */
 
     .hello-container h3 {
         margin: 0px;
     }
     
-    .hello-content p {
+    /* .hello-content p {
         width: 375px;
-    }
+    } */
     
     .recent-work-container {
         margin: 150px auto;
