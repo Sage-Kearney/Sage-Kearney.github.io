@@ -151,6 +151,17 @@ h2 {
     margin: 0 auto;
 }
 
+.project-3-img {
+    /* background-image: url("elements/Portfolio-Find-Hike.svg"); */
+    height: 400px;
+    width: 310px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+}
+
 
 .recent-work-container h3 {
     font-family:'margo_scriptregular', serif;
@@ -188,6 +199,10 @@ h2 {
 }
 
 .project-two-container{
+    position: relative;
+}
+
+.project-three-container{
     position: relative;
 }
 
@@ -387,118 +402,3 @@ footer h4 {
         margin: 0 auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-body {
-    text-align: center;
-    color: #2c0203;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #f0e5e4;
-}
-
-header {
-    height: 700px;
-    background-image: url(images/horiz-profile-pic.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
-/* main {
-    margin: 0 12%;
-}
-
-h1, h2, h3 {
-    font-family:'margo_serifregular', serif;
-}
-
-nav {
-    --display: grid;
-    grid-template-columns: 1fr 1fr 1fr; 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: #f0e5e4;
-}
-
-nav h1 {
-    --grid-column: 2;
-    font-size: 40px;
-    color: #f0e5e4;
-}
-
-nav button{
-    --grid-column: 3;
-    height: 40px;
-    margin-top: 35px;
-    width: 200px;
-    background: #821e03;
-    border-radius: 0%;
-    border: none;
-    color: #f0e5e4;
-    font-family: "montserrat", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-header{
-    color: #f0e5e4;
-} 
-
-header h2 {
-    padding-top: 200px;
-    width: 60%;
-    margin: 0 auto;
-}
-
-header p {
-    width: 70%;
-    margin: 0 auto;
-}
-
-header button {
-    height: 40px;
-    margin-top: 35px;
-    width: 200px;
-    background: #821e03;
-    color: #f0e5e4;
-    border-radius: 0%;
-    border: none;
-    font-family: "montserrat", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-} */
