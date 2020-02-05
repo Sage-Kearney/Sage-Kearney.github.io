@@ -121,7 +121,7 @@ h2 {
 
 .recent-work-container {
     margin: 40px auto;
-    max-width: 1000px;
+    max-width: 1200px;
 }
 
 .recent-work-container h2{
@@ -152,12 +152,10 @@ h2 {
 }
 
 .project-3-img {
-    /* background-image: url("elements/Portfolio-Find-Hike.svg"); */
+    background-image: url("elements/Portfolio-Find-Hike.png");
     height: 400px;
     width: 310px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-position: -85px -200px;
     position: relative;
     margin: 0 auto;
 }
@@ -206,6 +204,19 @@ h2 {
     position: relative;
 }
 
+@media screen and (max-width:1065px){
+    .project-three-container{
+        max-width:400px;
+        margin: 0 auto;
+}
+}
+
+@media screen and (max-width:695px){
+    .recent-work-container .hike-app-h3 {
+        left: 20%;
+    }
+}
+
 footer {
     background:#1a4746;
 }
@@ -215,17 +226,21 @@ footer img {
     margin: 0 auto;
     height: 200px;
     padding: 30px 0px 10px 0px;
-    opacity: .5;
+}
+
+hr {
+    border-color: rgba(239, 241, 243, .5);
+    width: 15%;
 }
 
 footer a {
-    color: #eff1f3;
-    font-family: "Montserrat", sans-serif;
+    color: #96a096;
+    font-family: 'margo_serifregular', serif;
     text-transform: uppercase;
-    margin: 0 auto;
+    margin: 0px auto 0px auto;
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     letter-spacing: 1px;
     
 }
@@ -236,21 +251,7 @@ footer a:hover {
     font-size: 16px;
 }
 
-hr {
-    border-color: rgba(239, 241, 243, .5);
-    width: 20%;
-}
 
-footer h4 {
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 1px;
-    margin: 0 auto;
-    color:#eff1f3;
-    
-}
 
 .fa-container {
     text-align: center;
@@ -259,7 +260,7 @@ footer h4 {
 .fa {
     display: inline-block; 
     font-size: 30px;
-    padding: 15px 5px;
+    padding: 10px 5px 30px 5px;
 }
 
 .fa:hover {
@@ -364,7 +365,6 @@ footer h4 {
 
     .flex-container {
         flex-direction: row;
-        /* align-content: center; */
         margin: 0 auto;
         height: 600px;
     }
@@ -377,28 +377,16 @@ footer h4 {
     .headshot-pic {
         margin-left: 5em;
     }
-/* 
-    .hello-content {
-        padding-left: 0px;
-        margin-right: 21%;
-        width: 100px;
-        top: 60px; */
-    /* } */
 
     .hello-container h3 {
         margin: 0px;
-    }
-    
-    /* .hello-content p {
-        width: 375px;
-    } */
+    }  
     
     .recent-work-container {
         margin: 150px auto;
     }
 
     .recent-work-container .row {
-        max-width: 800px;
         margin: 0 auto;
     }
 }
