@@ -125,6 +125,11 @@ h2 {
     font-size: 40px;
 }
 
+.email-link {
+    color: #1a4746;
+    text-decoration: underline;
+}
+
 .recent-work-container {
     margin: 40px auto;
     max-width: 1200px;
@@ -204,9 +209,14 @@ h2 {
 }
 
 .technologies {
-    font-size: 60px;
-
+    font-size: 40px;
+    display: inline-block;
+    margin: 40px 10px;
 } 
+
+.row2 {
+    margin: 10px 10px;
+}
 
 .repo-link {
     color: #1a4746;
@@ -284,7 +294,7 @@ hr {
 }
 
 footer a {
-    color: #96a096;
+    color: white;
     font-family: 'margo_serifregular', serif;
     text-transform: uppercase;
     margin: 0px auto 0px auto;
@@ -298,7 +308,7 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #96a096;
-    font-size: 16px;
+    font-size: 23px;
 }
 
 
