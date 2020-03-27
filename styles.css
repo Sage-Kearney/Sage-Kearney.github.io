@@ -203,6 +203,11 @@ h2 {
     left: 20%;
 }
 
+.technologies {
+    font-size: 60px;
+
+} 
+
 .repo-link {
     color: #1a4746;
     font-family: 'montserrat', sans-serif;
