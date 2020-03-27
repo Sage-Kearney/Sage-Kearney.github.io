@@ -111,15 +111,13 @@ h2 {
     font-family: 'margo_serifregular', serif;
     font-size: 30px;
     color: #c84630;
-    /* margin: 10px auto; */
     width: 275px;
 }
 
 .hello-container p{
     margin: 0px auto 20px auto;
-    /* width: 275px; */
-
 }
+
 .signature {
     font-family:'margo_scriptregular', serif;
     font-size: 40px;
