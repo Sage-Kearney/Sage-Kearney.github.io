@@ -247,7 +247,7 @@ hr {
     width: 15%;
 }
 footer a {
-    color: #96a096;
+    color: white;
     font-family: 'margo_serifregular', serif;
     text-transform: uppercase;
     margin: 0px auto 0px auto;
@@ -260,7 +260,7 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: #96a096;
-    font-size: 16px;
+    font-size: 22px;
 }
 .fa-container {
     text-align: center;
