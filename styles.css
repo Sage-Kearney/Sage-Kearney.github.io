@@ -181,7 +181,8 @@ h2 {
 
 .technologies {
     font-size: 60px;
-
+    display: inline-block;
+    margin: 20px 5px 5px;
 } 
 
 .repo-link {
