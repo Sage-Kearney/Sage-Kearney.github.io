@@ -25,7 +25,6 @@
 
 
 /* styling for mobile aka max width 370px  */
-
 body {
     color:#1a4746;
     background:#eff1f3;
@@ -33,26 +32,22 @@ body {
 nav {
     display: none;
 }
-
 header {
     background:#1a4746;
     height: 50vh;
     padding: 12rem 0;
 }
-
 @media screen and (max-width: 400px){
     header {
         padding: 6rem 0;
     }
 }
-
 header img{
     width: 25vh;
     display: block;
     margin: 0 auto;
     padding: 0px;
 }
-
 h2 {
     font-family: "margo_serifregular", serif; 
     font-size: 20px;
@@ -60,19 +55,16 @@ h2 {
     margin: 40px auto;
     width: 60vw;
 }
-
 .brand-statement {
     font-family: "montserrat", sans-serif;
     color:#c84630;
     font-size: 20px;
     line-height: 30px;
 }
-
 .hello-container{
     position: relative;
     padding: 40px 0;
 }
-
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -80,12 +72,10 @@ h2 {
     margin: 0 2.5em;
     max-width: 1000px;
 }
-
 .hello-content {
     /* border: 1px solid orange; */
     flex-basis: 40%;
 }
-
 .headshot-pic {
     background-image: url('/images/vert-profile-pic.jpg');
     flex-basis: 26em;
@@ -95,7 +85,6 @@ h2 {
     /* border: 1px solid purple; */
     margin-bottom: 1em;
 }
-
  .hello-offset-background {
     position: absolute;
     left: 0px;
@@ -105,44 +94,33 @@ h2 {
     z-index: -1;
     background:rgba(247, 233, 222, .7) ;
 } 
-
-
 .hello-container h3 {
     font-family: 'margo_serifregular', serif;
     font-size: 30px;
     color: #c84630;
+    /* margin: 10px auto; */
     width: 275px;
 }
-
 .hello-container p{
     margin: 0px auto 20px auto;
+    /* width: 275px; */
 }
-
 .signature {
     font-family:'margo_scriptregular', serif;
     font-size: 40px;
 }
-
-.email-link {
-    color: #1a4746;
-    text-decoration: underline;
-}
-
 .recent-work-container {
     margin: 40px auto;
     max-width: 1200px;
 }
-
 .recent-work-container h2{
     font-size: 30px;
     text-align: center;
     max-width: 1200px;
 }
-
 .col {
     padding-bottom: 80px;
 }
-
 .project-1-img {
     background-image: url("elements/portfolio-cat-quiz.svg");
     height: 400px;
@@ -153,7 +131,6 @@ h2 {
     position: relative;
     margin: 0 auto;
 }
-
 .project-2-img {
     background-image: url("elements/portfolio-bear-hug-honey-co.svg");
     height: 400px;
@@ -164,7 +141,6 @@ h2 {
     position: relative;
     margin: 0 auto;
 }
-
 .project-3-img {
     background-image: url("elements/Portfolio-Find-Hike.png");
     height: 400px;
@@ -173,7 +149,6 @@ h2 {
     position: relative;
     margin: 0 auto;
 }
-
 .project-4-img {
     background-image: url("elements/portfolio-devating.svg");
     height: 400px;
@@ -184,7 +159,6 @@ h2 {
     position: relative;
     margin: 0 auto;
 }
-
 .project-5-img {
     background-image: url("elements/portfolio-forfoodsake.png");
     height: 400px;
@@ -195,7 +169,6 @@ h2 {
     position: relative;
     margin: 0 auto;
 }
-
 .recent-work-container h3 {
     font-family:'margo_scriptregular', serif;
     font-size: 50px;
@@ -207,14 +180,9 @@ h2 {
 }
 
 .technologies {
-    font-size: 40px;
-    display: inline-block;
-    margin: 40px 10px;
-} 
+    font-size: 60px;
 
-.row2 {
-    margin: 10px 10px;
-}
+} 
 
 .repo-link {
     color: #1a4746;
@@ -224,12 +192,10 @@ h2 {
     margin: 10px auto;
     width: 300px;
 }
-
 .repo-link:hover {
     color: #c84630;
     text-decoration: none;
 }
-
 .project-trans-overlay {
     background-color:rgba(239, 241, 243, .6);
     height: 400px;
@@ -239,60 +205,49 @@ h2 {
     left: 0px;
     right:0px;
 }
-
 .project-trans-overlay:hover {
     background-color:rgba(239, 241, 243, 0);
 }
-
 .recent-work-container p {
     margin: 35px auto;
     width: 300px;
 }
-
 .project-one-container {
     position: relative;
     padding-bottom: 30px;
 }
-
 .project-two-container{
     position: relative;
 }
-
 .project-three-container{
     position: relative;
 }
-
 @media screen and (max-width:1065px){
     .project-three-container{
         max-width:400px;
         margin: 0 auto;
 }
 }
-
 @media screen and (max-width:695px){
     .recent-work-container .hike-app-h3 {
         left: 20%;
     }
 }
-
 footer {
     background:#1a4746;
 }
-
 footer img {
     display: block;
     margin: 0 auto;
     height: 200px;
     padding: 30px 0px 10px 0px;
 }
-
 hr {
     border-color: rgba(239, 241, 243, .5);
     width: 15%;
 }
-
 footer a {
-    color: white;
+    color: #96a096;
     font-family: 'margo_serifregular', serif;
     text-transform: uppercase;
     margin: 0px auto 0px auto;
@@ -302,30 +257,22 @@ footer a {
     letter-spacing: 1px;
     
 }
-
 footer a:hover {
     text-decoration: none;
     color: #96a096;
-    font-size: 23px;
+    font-size: 16px;
 }
-
-
-
 .fa-container {
     text-align: center;
 }
-
 .fa {
     display: inline-block; 
     font-size: 30px;
     padding: 10px 5px 30px 5px;
 }
-
 .fa:hover {
     font-size: 35px;
 }
-
-
 @media screen and (min-width:490px) and (max-width:695px){
     .flex-container {
         margin: 0 4.5em;
@@ -334,108 +281,84 @@ footer a:hover {
     .headshot-pic {
         background-position: 0 -90px;
     }
-
     .hello-offset-background {
         height: 750px;
     }
-
     .recent-work-container h3 {
         left: 35%;
     }
-
 }
-
 @media screen and (min-width:695px) and (max-width: 740px){
     .headshot-pic {
         background-position: -50px -50px;
     }
-
     .hello-offset-background {
         height: 520px;
     }
-
     .flex-container {
         flex-direction: row;
         align-content: center;
         margin: 0 4em;
     }
-
     .hello-content {
         margin-left: 2em;
     }
 }
-
 @media screen and (min-width:740px) and (max-width:970px){
     header {
         padding: 5rem 0 12rem 0;
     }
-
     header img {
         width: 55vh;
     }
-
     .brand-statement {
         margin: 100px auto;
     }
-
     .flex-container {
         flex-direction: row;
         align-content: center;
         margin: 0 4em;
     }
-
     .hello-content {
         margin: 2em 0 0 2em;
     }
-
     .hello-offset-background {
         height: 530px;
     }
-
     .headshot-pic {
         background-position:-50px -50px;
         margin-left: 5em;
     }
-
     .recent-work-container {
         margin: 150px auto;
     }
 }
-
-
 @media screen and (min-width: 971px){
     header {
         padding: 5rem 0 12rem 0;
     }
-
      header img {
         width: 55vh;
     }
-
     .brand-statement {
         margin: 100px auto;
         max-width: 700px;
     }
-
     .hello-offset-background {
         height: 500px;
     }
-
     .flex-container {
         flex-direction: row;
         margin: 0 auto;
         height: 600px;
     }
-
     .hello-content {
         margin-top: 8em;
         margin-left: 2em;
     }
-
     .headshot-pic {
         margin-left: 5em;
     }
-
     .hello-container h3 {
         margin: 0px;
     }  
@@ -443,7 +366,6 @@ footer a:hover {
     .recent-work-container {
         margin: 150px auto;
     }
-
     .recent-work-container .row {
         margin: 0 auto;
     }
